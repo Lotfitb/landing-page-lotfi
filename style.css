@@ -1,6 +1,7 @@
 body {
-  background-image: linear-gradient(to top, #fafafa64 0%, white 100%);
-  background-image: url(images/BG_Body.png);
+  background: rgb(0,62,51);
+background: linear-gradient(90deg, rgba(0,62,51,1) 0%, rgba(0,0,0,1) 100%);
+  background-image: url(images/maserati.png);
   margin: 0;
   padding: 0;
   color: black;
@@ -8,6 +9,43 @@ body {
   font-family: 'Lato', sans-serif;
   text-align: left;
 }
+.slash-color {
+  color: #003e33;
+}
+
+
+  .logo {
+   background-image: url(images/banner_bg.png);
+  }
+  .logo img {
+    width: 300px;
+
+  }
+  .banner {
+    text-align: center;
+  }
+  
+  .btn-blue {
+    margin-top: 10px;
+  }
+  
+  .location {
+    margin-top: 60px;
+  }
+  
+  .location img {
+    width: 30px; /* Ajustez la taille de l'icône selon vos besoins */
+    display: inline-block;
+    vertical-align: middle; /* Ajuste la position verticale de l'image pour l'aligner au centre du texte */
+    margin-right: 10px; /* Espace entre l'icône et le texte */
+    margin-bottom: 1px;
+  }
+  
+  .location p {
+    display: inline-block;
+    vertical-align: middle; /* Ajuste la position verticale du texte pour l'aligner au centre de l'image */
+    margin-top: 50px;
+  }
 
 
 h1,
@@ -18,8 +56,9 @@ h3 {
 }
 
 h1 {
-  color: white;
-  font-size: 60px;
+  color: rgb(1, 1, 1);
+  font-size: 40px;
+  margin-top: 2px;
 
 }
 
@@ -28,16 +67,21 @@ h2 {
   text-align: center;
   margin: 20px;
   text-align: left;
-  color: #00479C;
+  color: #ffffff;
 }
 
 h3 {
   font-size: 22px;
   text-align: center;
+  color: #000000;
+}
+
+.registration-form p {
+  margin-top: 10px;
 }
 
 h4 {
-  color: #00479C;
+  color: #003e33;
 }
 
 
@@ -46,7 +90,7 @@ a {
 }
 
 .banner {
-  background: url(images/BG\ \(1\).png);
+  background: url(images/top2.png);
   background-size: cover;
   padding: 150px 0;
   text-align: left;
@@ -56,16 +100,18 @@ a {
 
 .banner p {
   font-weight: 400;
-  font-size: 24px;
-  color: #ffffff;
-  margin-bottom: 90px;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 50px;
   opacity: 0.7;
   text-align: left;
 }
 
 
+
+
 .btn-blue {
-  background-color: #EEAD1F;
+  background-color: #003e33;
   color: white;
   border-radius: 4px;
   padding: 20px 50px;
@@ -73,7 +119,7 @@ a {
   font-weight: 500;
   font-weight: bolder;
   margin-right: 100px;
-
+  margin-top: 10px;
 }
 
 .btn-blue:hover {
@@ -111,7 +157,7 @@ a {
 
 
 .footer {
-  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  background-image: linear-gradient(120deg, #c3fce0 0%, #8efcad 100%);
   color: white;
   padding: 50px 0;
 }
@@ -133,14 +179,12 @@ a {
 .card-white2 {
   background-color: white;
   padding: 24px;
-  box-shadow: 0 10px 20px rgba(255, 215, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 181, 78, 0.2);
   margin: 8px;
   border-radius: 5px;
 }
 
-#video {
-  box-shadow: 0 10px 20px rgba(255, 215, 0, 0.2);
-}
+
 
 .cards-inline2 {
   display: grid;
@@ -166,7 +210,7 @@ a {
 }
 
 #title3 {
-  color: #EEAD1F;
+  color: #003e33;
 }
 
 #body2 {
@@ -186,18 +230,6 @@ a {
 
 
 
-.btn-blue2 {
-  background-color: #EEAD1F;
-  color: white;
-  border-radius: 4px;
-  padding: 20px 50px;
-  font-size: 15px;
-  font-weight: 500;
-  font-weight: bolder;
-  margin-right: 100px;
-  margin: 20px;
-
-}
 
 #body3 {
   color: white;
@@ -233,7 +265,7 @@ footer {
   flex-direction: row;
   text-align: center;
   margin-right: 50px;
-  color: #0A66C2;
+  color: #003e33;
 }
 
 
@@ -241,7 +273,7 @@ footer {
 .footer-links a {
   margin-right: 20px;
   font-size: 14px;
-  color: #0A66C2;
+  color: #003e33;
 }
 
 .card-white3 {
@@ -254,7 +286,7 @@ footer {
 
 .list-inline2 i {
   font-size: 18px;
-  color: #004598;
+  color: #003e33;
   letter-spacing: 30px;
   text-align: left;
 }
@@ -327,4 +359,104 @@ span:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* styles.css */
+
+.container {
+  text-align: center;
+}
+
+.cards-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-white {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  width: 300px; /* Ajustez la taille de l'icône selon vos besoins */
+  margin-right: 20px;
+}
+
+#promesse {
+  list-style: disc; /* Utilisez 'circle' ou 'square' selon votre préférence */
+  margin-left: 20px;
+}
+
+/* Ajout de styles pour le formulaire */
+.registration-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrer les éléments horizontalement */
+}
+
+/* Ajout du style pour le conteneur du formulaire */
+.registration-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 600px;
+  position: relative;
+}
+
+/* Ajout du style pour l'effet vert transparent */
+.registration-form::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, rgba(0, 62, 51, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  border-radius: 8px;
+}
+
+/* Ajout d'espace entre chaque champ du formulaire */
+.registration-form label,
+.registration-form input,
+.registration-form .language-options,
+.registration-form .glove-options,
+.registration-form button {
+  margin-bottom: 15px;
+}
+
+/* Ajout d'un espacement spécifique entre les champs "Nom du concessionnaire/de l'entreprise" et "Prénom (surnom le cas échéant)" */
+#companyName,
+#firstName {
+  margin-right: 15px;
+}
+
+/* Changement de la couleur du bouton "ENVOYER" */
+.registration-form button {
+  background-color: #003e33;
+  color: #fff;
+  font-weight: bold; /* Rendre le texte en gras */
+  padding: 20px 30px; /* Ajuster la taille du bouton */
+}
+
+/* Changement de la couleur du bouton "ENVOYER" */
+.registration-form button {
+  background-color: #003e33;
+  color: #fff;
+  font-weight: bold; /* Rendre le texte en gras */
+  padding: 20px 30px; /* Ajuster la taille du bouton */
+  transition: background-color 0.3s; /* Ajout d'une transition pour l'effet hover */
+}
+
+/* Effet hover transparent sur le bouton "ENVOYER" */
+.registration-form button:hover {
+  background-color: rgba(0, 62, 51, 0.8);
+}
+
+
+/* ... (le code existant) ... */
 
